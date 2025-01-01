@@ -1,0 +1,210 @@
+/* Global Style */
+body{
+    font-family: poppins;
+}
+.container{
+    width: 1160px;
+}
+
+/* Header */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Navbar */
+header .navbar {
+    background: #daac00;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+header .navbar form{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    color: white;
+}
+header .form-control{
+    background: #fcc302;
+    border: 1px solid #fcc302;
+    color: white;
+    border-radius: 0;
+}
+header .form-control::placeholder{
+    color: white;
+}
+header .form-control:focus{
+    background: #fcc302;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+}
+header form .btn{
+    border-radius: 0;
+}
+/* header form .btn:focus{
+    box-shadow: none;
+} */
+
+/* Hero-Section */
+.hero{
+    background: #fcc302;
+}
+.hero h1{
+    font-size: 4rem !important;
+}
+.hero p{
+    font-size: 1.8rem !important;
+}
+.hero .btn{
+    border: 3px solid white;
+    font-weight: 600;
+    color: white;
+    margin-right: 1.5rem;
+}
+.hero .btn:focus{
+    outline: none;
+}
+.hero .btn-outline-primary:hover{
+    color: white;
+    background: #00bec9;
+    border: 3px solid #00bec9;
+}
+
+/* Treatment-1 */
+.treatment1 h2{
+    font-size: 3.12rem
+}
+.treatment1 p{
+    font-size: 1.8rem;
+}
+.treatment1 .btn{
+    padding: .75rem 1rem;
+}
+.treatment1 .btn:hover{
+    box-shadow: none;
+}
+.treatment1 .content{
+    position: relative;
+    z-index: 1;
+}
+.treatment1 .content::after{
+    content: '';
+    height: 40%;
+    width: 40%;
+    background:#fcc302;
+    position: absolute;
+    bottom: -2rem;
+    left: -2rem;
+    z-index: -1;
+}
+
+/* Services-Section */
+.services{
+    background:#fcc302
+}
+.services p{
+    margin-bottom: 0;
+}
+.services .title h1{
+    margin-bottom: 0;
+}
+
+/* Treatment2-Section */
+.treatment2 .btn{
+    padding: .75rem 1rem;
+}
+.treatment2 .btn:hover{
+    box-shadow: none;
+}
+.treatment2 .content{
+    position: relative;
+    z-index: 1;
+}
+.treatment2 .content::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background: #fcc302;
+    bottom: -2rem;
+    right: -2rem;
+    z-index: -1;
+}
+
+/* Price-Section */
+.price{
+    background: #fcc302;
+}
+.price button{
+    border-radius: 20px;
+    padding: 7px 30px;
+    color: white;
+}
+.price del{
+    padding-right: 1rem;
+}
+
+/* Team-Section */
+.team .card-header, .card-body{
+    background: none;
+    border: none;
+}
+
+/* Dashboard-Section */
+.dashboard{
+    background: url('img/dashboard-bg.png') no-repeat;
+    background-size: cover;
+}
+.dashboard .container{
+    padding: 130px 0;
+}
+
+/* Recent-Section */
+.recent .card{
+    transition: .3s;
+}
+.recent .card:hover{
+    box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+.recent a{
+    text-decoration: none;
+}
+
+/* Footer-Section */
+.footer{
+    background: #343434;
+}
+.footer .box{
+    box-sizing: border-box;
+}
+.footer .box1{
+    width: 80%;
+    height: 4rem;
+    background: #fcc302;
+}
+.footer .box2{
+    width: 20%;
+    height: 4rem;
+    background: #00bec9;
+    position: relative;
+}
+.footer .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer .social-links a{
+    margin-left: 1rem;
+}
+.footer .social-links img{
+    width: 40px;
+}
