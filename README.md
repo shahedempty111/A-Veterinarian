@@ -1,2 +1,2 @@
-# Vaterinarian_Page
+# Vaterinarian
 A vaterinarian one-page website
